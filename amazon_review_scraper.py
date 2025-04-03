@@ -311,7 +311,7 @@ if __name__ == "__main__":
         exit()
 
     # Scrape reviews
-    reviews, product_folder = scrape_amazon_reviews(args.product_url, star_rating=star_rating, max_pages=5)
+    reviews, product_folder = scrape_amazon_reviews(args.product_url, star_rating=star_rating, max_pages=10)
     
     # Save to CSV in the product folder
     if reviews:
