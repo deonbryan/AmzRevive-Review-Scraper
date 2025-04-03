@@ -32,7 +32,7 @@ a product into a single `combined_reviews.csv` file.
 
 ## Notes
 - Use a residential IP address to avoid being flagged by Amazon.
-- Scrape in moderation to avoid account suspension (limited to 5 pages per run).
+- Scrape in moderation to avoid account suspension (limited to 10 pages per run).
 - To change the maximum number of pages scraped, modify the `max_pages` parameter in the `scrape_amazon_reviews` function call in `amazon_review_scraper.py`. For example, change `max_pages=5` to `max_pages=10` to scrape up to 10 pages.
 - Monitor your Amazon account for warnings.
 - The script saves cookies to `amazon_cookies.pkl` for reuse, which is excluded from the repository via `.gitignore`.
