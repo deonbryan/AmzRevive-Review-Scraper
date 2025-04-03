@@ -1,3 +1,4 @@
 amazon_cookies.pkl
 *.csv
 reviews_*
+.DS_Store
