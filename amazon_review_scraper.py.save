@@ -1,4 +1,4 @@
-from selenium import webdriver
+≈≈≈≈≈≈≈from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -293,7 +293,7 @@ if __name__ == "__main__":
     # Set up command-line argument parsing
     parser = argparse.ArgumentParser(description="Scrape Amazon product reviews.")
     parser.add_argument("product_url", help="The Amazon product URL to scrape reviews from")
-    args = parser.parse_args() print(f"URL received: {args.product_url}")
+    args = parser.parse_args()
 
     # Prompt user for star rating
     print("Enter the star rating to filter reviews (1, 2, 3, 4, 5, or 0 for all reviews):")
